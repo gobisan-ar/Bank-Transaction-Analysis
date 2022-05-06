@@ -3,8 +3,10 @@
   # Loan-Insights
   This is an end to end Data Warehousing and Business Intelligence Project
   
-  ![JDK](https://img.shields.io/badge/JDK-%208u241-orange?style=flat)
+  ![SSIS](https://img.shields.io/badge/SSIS-red?style=flat)
   &nbsp;
-  ![Group](https://img.shields.io/badge/DWBI-%20Y3.S1-green?style=flat)
+  ![SSAS](https://img.shields.io/badge/SSAS-green?style=flat)
+  &nbsp;
+  ![SSRS](https://img.shields.io/badge/SSRS-blue?style=flat)
   
 </div>
