@@ -1,6 +1,6 @@
 <div align="center">
   
-  # Loan-Insights
+  # Bank Transaction Analysis
   This is an end to end Data Warehousing and Business Intelligence Project
   
   ![SSIS](https://img.shields.io/badge/SSIS-red?style=flat)
