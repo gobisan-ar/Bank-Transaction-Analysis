@@ -23,7 +23,7 @@
   
   <br>
   
-  ### Ovearll Project Architecture:
+  ### Ovearall Project Architecture:
   
-  <img src="/Diagrams/architecture.png">
+  <img  width="75%" src="/Diagrams/architecture.png">
 </div>
