@@ -18,7 +18,7 @@
   ### Project Desctiption:
   
   <p style="text-align:justify;">
-    Developed an ETL process using SSIS to extract data from multiple sources, transform it, and load it into the data warehouse. The data warehouse is based on a snowflake schema, which contains an Accumalting Fact table, a SCD and other dimensions. An SSAS cube was created using the data warehoue as data source. An Excel workbook was connected to the Cube to create Excel visulaizations. In addition SSRS visualizations also created.
+Developed an ETL process using SSIS to extract data from multiple sources, transform it, and load it into the data warehouse. The data warehouse is based on a snowflake schema, which contains an Accumulating Fact table, a SCD and other dimensions. An SSAS cube was created using the data warehouse as data source. An Excel workbook was connected to the Cube to create Excel visualizations. In addition SSRS visualizations also created.
   </p>
   
   <br>
