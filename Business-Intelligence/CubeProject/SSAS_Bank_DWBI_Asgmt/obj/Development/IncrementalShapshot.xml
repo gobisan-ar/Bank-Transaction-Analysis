@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_Bank_DWBI_Asgmt</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>FxGrucit3EmOQf05mlB+VEnTAgA=5/16/2022 12:13:20 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>DS_DWBI_Bank_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>O56WllGsLWd8mf95KSIbDWK79P4=5/16/2022 12:18:07 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>DSV_DWBI_Bank_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QbhQStYGxt5xqAsOP7evN1y/OYY=5/16/2022 9:22:49 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Transaction Method</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nWJ0eg4PvnNUMN7pARH48WEjC8A=5/16/2022 9:22:07 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KcUer2ovHo6VWcOK8DQ+F1Ix/cg=5/16/2022 9:22:49 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vOXjgJ9jCwGpUGwP8NKSLffSFzo=5/16/2022 9:30:13 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Loan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JRUaDV0Nc/kYbrge58PdZBGNHsM=5/16/2022 9:17:53 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Account</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VroUSsRbY3fwRJu3h6AC+FucuFc=5/16/2022 9:17:36 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Standing Order</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aR23C/6eg9BXcZST5wBnwY//f1M=5/16/2022 9:17:13 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Dim Credit Card</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0AH9OuWd6MJyPzUly+AxJQxIozU=5/16/2022 9:22:07 AM5/17/2022 7:58:07 PMS67jkIeV4GRBvvoAB/2Sex8Y0GA=5/16/2022 12:18:49 AM5/17/2022 7:58:07 PM</TimeStamp>
+        <ID>
+          <String>Cube_DWBI_Bank_DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>CXyV6dcEL48f9/rQDnZRXUePKJA=5/16/2022 12:11:52 AM5/17/2022 7:58:07 PM</TimeStamp>
+      <ID>
+        <String>SSAS_Bank_DWBI_Asgmt</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-17T17:48:30.783333Z</LastDeployed>
+</DeploymentSnapshot>

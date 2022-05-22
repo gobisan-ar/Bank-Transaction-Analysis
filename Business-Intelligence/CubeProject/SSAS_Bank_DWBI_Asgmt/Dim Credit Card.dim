@@ -1,0 +1,328 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1561dd50-52c1-4ab9-94b1-8d4c9b3e6571" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Credit Card</ID>
+  <Name>Dim Credit Card</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1641" scrolltop="-483" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7789" y="11303" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCreditCard" left="41" top="5787" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3979" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008b0f00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCreditCard" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDisposition" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60f00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDisposition" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1632" top="2888" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__DimCredit__Dispo__7EC1CEDB]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2031" y="3387" />
+              <point x="2031" y="4587" />
+              <point x="2030" y="4587" />
+              <point x="2030" y="5787" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1641</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-483</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="047c8aee-c17b-4e1f-a601-f366c9c5766c">
+    <DataSourceViewID>DSV_DWBI_Bank_DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="b2fadcf9-49a1-4499-bf43-d114f52d7db7">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="246ecf58-0ec3-4ff9-af61-02671ce58aca">
+      <ID>Credit Card SK</ID>
+      <Name>Credit Card SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4fb58c05-96f1-4801-a502-825353d3744b">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab8f5460-a34b-4774-81cc-9f800127d4d2">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>CreditCardSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8c8498ed-28e9-4e31-8b91-2c07309aa5e7">
+          <AttributeID>Alternate Credit Card ID</AttributeID>
+          <Name>Alternate Credit Card ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="332cf2a7-1fab-4be3-ae95-83e984ef2ca7">
+          <AttributeID>Disposition Key</AttributeID>
+          <Name>Disposition Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cabf599a-b1e4-4edc-8fde-5f9c11700703">
+          <AttributeID>Card Type</AttributeID>
+          <Name>Card Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="52980f48-4abc-4d56-aae1-0f8809e6f37e">
+          <AttributeID>Src Issued Date</AttributeID>
+          <Name>Src Issued Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="da427aa5-4aa6-42e3-a4b1-f419d9e0ad55">
+          <AttributeID>Src Expiration Date</AttributeID>
+          <Name>Src Expiration Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="90de64a4-d752-4e8c-8ee9-4275b10fbb9f">
+          <AttributeID>Card Status</AttributeID>
+          <Name>Card Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8106071d-ac09-4ad7-90bb-41a5e1a8d371">
+          <AttributeID>Alternate Disposition ID</AttributeID>
+          <Name>Alternate Disposition ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="58d9c0f1-13c6-4448-856a-6e9d401a1106">
+          <AttributeID>Customer Key</AttributeID>
+          <Name>Customer Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9276cecc-85d7-4360-8b74-203d5f3561f7">
+          <AttributeID>Account Key</AttributeID>
+          <Name>Account Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fcc8f23a-538b-4c1d-abc2-6eff60d5a458">
+          <AttributeID>Disposition Type</AttributeID>
+          <Name>Disposition Type</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bc0361a7-fb99-4603-bfa3-9e71ffbb69e2">
+      <ID>Alternate Credit Card ID</ID>
+      <Name>Alternate Credit Card ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3cf18ae3-6d2a-4f8e-8a36-4fe98c766746">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3df09b59-20ca-41d3-b0d2-c75a489ea156">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>AlternateCreditCardID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb9855e2-ad00-4c6f-b168-6f5be632902a">
+      <ID>Disposition Key</ID>
+      <Name>Disposition Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b6a1bbe7-22cf-445e-bed8-871b52e7c6c9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79bff54c-cab1-4f1b-b570-b695613c0efa">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>DispositionKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="02a83395-1863-4fec-b8d9-e6864f3e6bab">
+      <ID>Card Type</ID>
+      <Name>Card Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf7bdcf2-683e-4e90-8cc4-a5af19105440">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="885f2f98-0799-4307-92db-55a1bb55b321">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>CardType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="544e2f3d-6535-4cec-b028-097947869ff6">
+      <ID>Src Issued Date</ID>
+      <Name>Src Issued Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd3b8c05-7bfc-49ec-9a4b-d6348a561835">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f46f18b-87c4-4366-b481-9184587bc8e6">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>SrcIssuedDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="915a0a8f-ae8a-48dc-a926-6a2e204c7085">
+      <ID>Src Expiration Date</ID>
+      <Name>Src Expiration Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aff51261-896d-4ac8-8481-c5c0da0195ab">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d449195-ec23-405c-b45c-89157f6bdb61">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>SrcExpirationDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd2e2f5d-e7ac-4d3d-a7bf-8366f07b7c19">
+      <ID>Card Status</ID>
+      <Name>Card Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ba8ec4f-121d-4cdd-87d9-430a7eda7c3a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f1c2922-0396-4f08-87b0-01a2aaedf3d6">
+            <TableID>dbo_DimCreditCard</TableID>
+            <ColumnID>CardStatus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e370434-fdda-4b7e-aacd-6b54309d6235">
+      <ID>Alternate Disposition ID</ID>
+      <Name>Alternate Disposition ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="652edc40-762f-48e5-91d1-bb4008881b09">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9c9c553-bbab-4a92-abcc-c1a7825888d5">
+            <TableID>dbo_DimDisposition</TableID>
+            <ColumnID>AlternateDispositionID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f513ea3f-12d2-4207-a04f-3a176b224f86">
+      <ID>Customer Key</ID>
+      <Name>Customer Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="738d25cb-eb9f-4ca0-9753-04b2aeb57b79">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a5210c28-3035-42c0-a74c-650043da367d">
+            <TableID>dbo_DimDisposition</TableID>
+            <ColumnID>CustomerKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2f914cb1-2a43-4471-862a-19a89c55ddc8">
+      <ID>Account Key</ID>
+      <Name>Account Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c65e6471-3a19-478b-9aba-a67a0ff16c38">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ac80463-4d20-4b6a-8fd0-840a9c5493ac">
+            <TableID>dbo_DimDisposition</TableID>
+            <ColumnID>AccountKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b2d8ac93-8dc0-474d-a999-5dfef446b4a5">
+      <ID>Disposition Type</ID>
+      <Name>Disposition Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ef7dd9a3-d4b5-4a27-8577-9be429e2de8c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ece3f52-bc7f-475a-a4ab-c063c2ef514c">
+            <TableID>dbo_DimDisposition</TableID>
+            <ColumnID>DispositionType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
