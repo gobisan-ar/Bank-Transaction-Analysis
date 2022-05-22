@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_Bank_DWBI_Asgmt", "SSIS_Bank_DWBI_Asgmt.dtproj", "{515AC1D2-81C6-46C9-976C-73A0B69699C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{515AC1D2-81C6-46C9-976C-73A0B69699C8}.Development|Default.ActiveCfg = Development
+		{515AC1D2-81C6-46C9-976C-73A0B69699C8}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70415B6A-9E55-4640-AD2C-4635672E13D7}
+	EndGlobalSection
+EndGlobal
