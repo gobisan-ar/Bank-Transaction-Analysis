@@ -8,6 +8,8 @@
   ![SSRS](https://img.shields.io/badge/SSRS-DF3900?style=flat)
   &nbsp;
   ![SSAS](https://img.shields.io/badge/SSAS-0C6CBD?style=flat)
+  &nbsp;
+  ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=flat)
   
 </div>
 
